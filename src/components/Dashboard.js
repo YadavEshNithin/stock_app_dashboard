@@ -47,10 +47,10 @@ const Dashboard = () => {
         darkMode ? "bg-gray-900 text-gray-300" : "bg-neutral-100"
       }`}
     >
-      <div className="col-span-1 md:col-span-2 xl:col-span-3 row-span-1 flex justify-start items-center">
+      <div className="col-span-1 md:col-span-2 xl:col-span-3 row-span-1 flex justify-start items-center my-4">
         <Header name={stockDetails.name} />
       </div>
-      <div className="md:col-span-2 row-span-4">
+      <div className="md:col-span-2 row-span-4 my-5">
         <Chart />
       </div>
       <div>
@@ -62,7 +62,7 @@ const Dashboard = () => {
           currency={stockDetails.currency}
         />
       </div>
-      <div className="row-span-2 xl:row-span-3">
+      <div className="row-span-2 xl:row-span-3 overflow-auto bg-slate-100">
         <Details details={stockDetails} />
       </div>
     </div>

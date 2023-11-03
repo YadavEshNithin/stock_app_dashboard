@@ -22,15 +22,15 @@ const Details = ({ details }) => {
   return (
     <Card>
       <ul
-        className={`w-full h-full flex flex-col justify-between divide-y-1 ${
+        className={`w-full h-full flex flex-col justify-between divide-y-1 overflow-auto ${
           darkMode ? "divide-gray-800" : null
         }`}
       >
         {Object.keys(detailsList).map((item) => {
           return (
-            <li key={item} className="flex-1 flex justify-between items-center">
+            <li key={item} className="flex-1 flex justify-between items-center text-sm sm:text-xl">
               <span>{detailsList[item]}</span>
-              <span className="font-bold">
+              <span className="font-bold w-20 sm:w-fit">
                 {item === "marketCapitalization"
                   ? `${convertMillionToBillion(details[item])}B`
                   : details[item]}
