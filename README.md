@@ -28,7 +28,7 @@ This project is a stock dashboard app that uses the [Finnhub API](https://finnhu
 <img src="./src/assets/theme.gif" />
 
 
-## Subsections
+<!-- ## Subsections
 If you are interested in following along this tutorial, here are the subsections (with links to the code for each part)
 
 | Branch                                                            	| Description                            	|
@@ -40,4 +40,4 @@ If you are interested in following along this tutorial, here are the subsections
 | [Part 5](https://github.com/DLabbate/stock-dashboard/tree/part-5) 	| Recharts (Plotting Data)               	|
 | [Part 6](https://github.com/DLabbate/stock-dashboard/tree/part-6) 	| Dark Mode (React Context)              	|
 | [Part 7](https://github.com/DLabbate/stock-dashboard/tree/part-7) 	| Fetching Data from REST API (Finnhub)  	|
-| [Part 8](https://github.com/DLabbate/stock-dashboard/tree/part-8) 	| Transitions & Animations               	|
+| [Part 8](https://github.com/DLabbate/stock-dashboard/tree/part-8) 	| Transitions & Animations               	| -->
