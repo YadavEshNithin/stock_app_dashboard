@@ -47,10 +47,10 @@ const Dashboard = () => {
         darkMode ? "bg-gray-900 text-gray-300" : "bg-neutral-100"
       }`}
     >
-      <div className="col-span-1 md:col-span-2 xl:col-span-3 row-span-1 flex justify-start items-center my-4">
+      <div className="col-span-1 md:col-span-2 xl:col-span-3 row-span-1 flex justify-start items-center mt-14 my-4">
         <Header name={stockDetails.name} />
       </div>
-      <div className="md:col-span-2 row-span-4 my-5">
+      <div className="md:col-span-2 row-span-4 my-5 mt-16">
         <Chart />
       </div>
       <div>
